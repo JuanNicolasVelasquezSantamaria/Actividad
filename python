@@ -1,0 +1,19 @@
+# Actividad
+Trabajo en clase sort python
+
+paises=["España","Rio","Italia","Argentina","Irlanda"]
+print(paises)
+X=sorted(paises)
+print(X)
+print(paises)
+Y=sorted(paises,reverse = True)
+print(Y)
+print(paises)
+paises.reverse()
+print("reversa:",paises)
+paises.reverse()
+print("inverso:",paises)
+paises.sort()
+print("orden alfabetico:",paises)
+paises.sort(reverse = True)
+print("orden alfabetico invertido:",paises)
